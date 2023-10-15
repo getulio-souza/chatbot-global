@@ -24,7 +24,6 @@ class ChatBox {
         this.onSendButton(chatBox)
       }
     })
-
   }
 
   //implements the tooogle state
@@ -34,9 +33,9 @@ class ChatBox {
 
     //show or hides the box
     if (this.state) {
-      chatbox.classlist.add('chatbox--active')
+      chatbox.classList.add('chatbox--active');
     } else {
-      chatbox.classlist.remove('chatbox--active')
+      chatbox.classList.remove('chatbox--active');
     }
   } 
 
@@ -90,3 +89,7 @@ class ChatBox {
 
 const chatbox = new ChatBox();
 chatbox.display()
+
+
+//ver porque nao esta loggando no browser. Talvez seja algum problema na hora de declarar o script no html
+console.log('esta funcionando...')
