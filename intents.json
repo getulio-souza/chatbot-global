@@ -33,28 +33,26 @@
       "responses": ["Feliz em ajudar!", "O prazer foi meu"]
     },
     {
-      "tag": "items",
+      "tag": "cursos",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Selecione um curso abaixo?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "1- Front-End", 
+        "2 - Back-End",
+        "3 - Full Stack"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "cursos",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Bem vindo à formação Front End. Aqui você terá a oportunidade de aprender a desenvolver layout fantásticos com os mais modernos e atuais frameworks do mercado. Escolha uma linguagem de programação Front End do seu interesse:"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Javascript",
+        "Angular",
+        "React",
+        " Vue"
       ]
     },
     {
