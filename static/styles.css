@@ -124,6 +124,21 @@ html {
   box-shadow: var(--primaryBoxShadow);
 }
 
+.close-chatbox-btn{
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  color:#fff;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.close-chatbox-btn:hover{
+  color: red;
+}
+
 .chatbox__image--header {
   margin-right: 10px;
 }

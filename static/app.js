@@ -9,6 +9,9 @@ class ChatBox {
       openButton: document.querySelector('.chatbox__button'),
       chatBox: document.querySelector('.chatbox__support'),
       sendButton: document.querySelector('.send__button'),
+      closeButton: document.querySelector('.close-chatbox-btn')
+
+    // closeButton.classList.remove('chatbox--active')
     }
 
     this.state = false;
@@ -18,10 +21,11 @@ class ChatBox {
   //display the messages on chatbot
 
   display() {
-    const { openButton, chatBox, sendButton } = this.args;
+    const { openButton, chatBox, sendButton, closeButton } = this.args;
 
     openButton.addEventListener('click', () => this.toggleState(chatBox))
     sendButton.addEventListener('click', () => this.onSendButton(chatBox))
+    closeButton.addEventListener('click', () => this.closeChatBox(chatBox))
     
     const node = chatBox.querySelector('input');
     node.addEventListener('keyup', ({ key }) => {
@@ -38,10 +42,8 @@ class ChatBox {
   }
 
   //implements the tooogle state
-
   toggleState(chatbox) {
     this.state = !this.state;
-
     //show or hides the box
     if (this.state) {
       chatbox.classList.add('chatbox--active');
@@ -49,6 +51,14 @@ class ChatBox {
       chatbox.classList.remove('chatbox--active');
     }
   } 
+
+  //close chatbox by clicking on X
+  closeChatBox(chatbox) {
+    this.state = this.state;
+    if (this.state) {
+      chatbox.classList.remove('chatbox--active')
+    }
+  }
 
   //implements the send button functionality
   onSendButton(chatbox) {

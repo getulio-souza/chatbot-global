@@ -1,4 +1,4 @@
-# Chatbot Deployment with Flask and JavaScript
+# ChatBot com python e Javascript - BeDev Chatbot
 
 Este tutorial foi criado para orientar todos que forem clonar e rodar este projeto localmente.
 
