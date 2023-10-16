@@ -111,6 +111,13 @@ html {
   border-top-right-radius: 20px;
 }
 
+@media(max-width:900px){
+  .chatbox__support{
+    height: 400px;
+    width: 300px;
+  }
+}
+
 /* HEADER */
 .chatbox__header {
   background: var(--primaryGradient);
