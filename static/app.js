@@ -56,8 +56,7 @@ class ChatBox {
       mode: 'cors',
       headers: {
         'Content-type': 'application/json',
-        'charset=utf-8'
-      },
+      }
     })
       .then(response => response.json())
       .then(response => {
