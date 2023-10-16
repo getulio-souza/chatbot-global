@@ -196,7 +196,7 @@ html {
 .chatbox__button button:focus,
 .chatbox__button button:visited {
   padding: 10px;
-  background: white;S
+  background: white;
   border: 1px solid white;
   outline: none;
   border-top-left-radius: 50px;

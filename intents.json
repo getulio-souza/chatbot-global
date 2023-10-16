@@ -3,79 +3,121 @@
     {
       "tag": "greeting",
       "patterns": [
+        "ol\u00e1",
+        "Ola",
         "ola",
+        "ol\u00e1",
         "oi",
-        "Tem alguém aí",
+        "Oi",
         "Bom dia",
         "Boa tarde",
         "Boa noite"
       ],
       "responses": [
-        "Olá :-)",
-        "Olá, obrigado pela visita",
-        "Olá, o que posso fazer por você",
-        "Olá, no que posso te ajudar?"
+        "Ol\u00e1, tudo bem? escolha uma op\u00e7\u00e3o abaixo para iniciar a sua navega\u00e7\u00e3o:"
       ]
     },
-    {
-      "tag": "Até mais!",
-      "patterns": ["Tchau", "Te vejo mais tarde", "Até mais"],
-      "responses": [
-        "Te vejo mais tarde, obrigado pela visita",
-        "Tenha um bom dia!",
-        "Tchau! Volte em breve."
-      ]
-    },
-    {
-      "tag": "Obrigado",
-      "patterns": ["obrigado", "muito obrigado"],
-      "responses": ["Feliz em ajudar!", "O prazer foi meu"]
-    },
+
     {
       "tag": "cursos",
       "patterns": [
-        "Selecione um curso abaixo?"
+        "Quero conhecer os cursos disponiveis",
+        "Quero conhecer os cursos dispon\u00edveis",
+        "quero conhecer os cursos disponiveis",
+        "cursos disponiveis",
+        "cursos",
+        "me mostre os cursos disponiveis",
+        "me mostre os cursos dispon\u00edveis"
       ],
       "responses": [
-        "1- Front-End", 
-        "2 - Back-End",
-        "3 - Full Stack"
+        "Temos cursos de Front-End, Back-end e FullStack. Cada curso aborda frameworks especificos que atendem uma determinada necessidade. Qual você tem interesse?"
       ]
     },
+
     {
-      "tag": "cursos",
+      "tag": "frontEnd",
       "patterns": [
-        "Bem vindo à formação Front End. Aqui você terá a oportunidade de aprender a desenvolver layout fantásticos com os mais modernos e atuais frameworks do mercado. Escolha uma linguagem de programação Front End do seu interesse:"
+        "Front-End",
+        "Frontend",
+        "Front End",
+        "Front end",
+        "front-end",
+        "frontend",
+        "front end",
+        "front end"
+      ],
+      "responses": [
+        "Bem vindo \u00e0 formação Front End. Aqui você ter\u00e1 a oportunidade de aprender a desenvolver layouts fantásticos com os mais modernos e atuais frameworks do mercado."
+      ]
+    },
+
+    {
+      "tag": "linguagens frontend",
+      "patterns": [
+        "quais s\u00e3o os frameworks?",
+        "quais frameworks?",
+        "quais linguagens?",
+        "quais linguagens posso aprender?",
+        "quais s\u00e3o os frameworks",
+        "quais frameworks",
+        "quais linguagens",
+        "quais linguagens posso aprender"
       ],
       "responses": [
         "Javascript",
         "Angular",
         "React",
-        " Vue"
+        "Vue"
       ]
     },
+
     {
-      "tag": "delivery",
+      "tag": "backEnd",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Back-End",
+        "Backend",
+        "backend",
+        "Back End",
+        "Back end"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Bem vindo \u00e0 forma\u00e7\u00e3o BackEnd. Aqui você ter\u00e1 a oportunidade de aprender a criar APIs e estruturas robustas com os mais modernos e atuais frameworks do mercado."
       ]
     },
-    {
-      "tag": "funny",
+
+     {
+      "tag": "linguagens backend",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "quais s\u00e3o os frameworks?",
+        "quais frameworks?",
+        "quais linguagens?",
+        "quais linguagens posso aprender?",
+        "quais s\u00e3o os frameworks",
+        "quais frameworks",
+        "quais linguagens",
+        "quais linguagens posso aprender"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Java",
+        "C#",
+        "Python",
+        "Node"
+      ]
+    },
+
+      {
+      "tag": "Obrigado",
+      "patterns": [
+        "Disponha", 
+        "Eu que agradeço pela sua presença",
+        "De nada", 
+        "N\u00e3o tem de que"
+      ],
+      "responses": [
+        "Feliz em ajudar!", 
+        "Feliz em ajudar", 
+        "Conte comigo", 
+        "O prazer foi meu"
       ]
     }
   ]

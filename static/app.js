@@ -55,7 +55,8 @@ class ChatBox {
       body: JSON.stringify({ message: text1 }),
       mode: 'cors',
       headers: {
-        'Content-type': 'application/json'
+        'Content-type': 'application/json',
+        'charset=utf-8'
       },
     })
       .then(response => response.json())
@@ -74,8 +75,8 @@ class ChatBox {
   //update function
   updateChatText(chatbox) {
     var html = '';
-    this.messages.slice().reverse().forEach(function (item,) {
-      if (item.name === "Sam") {
+    this.messages.slice().reverse().forEach(function (item) {
+      if (item.name === "John") {
         html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
       } else {
         html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
@@ -89,7 +90,3 @@ class ChatBox {
 
 const chatbox = new ChatBox();
 chatbox.display()
-
-
-//ver porque nao esta loggando no browser. Talvez seja algum problema na hora de declarar o script no html
-console.log('esta funcionando...')
