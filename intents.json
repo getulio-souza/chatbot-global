@@ -14,7 +14,7 @@
         "Boa noite"
       ],
       "responses": [
-        "Ol\u00e1, tudo bem? Escolha uma op\u00e7\u00e3o a seguir para iniciar a sua navega\u00e7\u00e3o:\n1 - Sou estudante e quero saber mais sobre cursos;\n2 - Sou profissional e estou em busca de novas oportunidades"
+        "Ol\u00e1, tudo bem? Escolha uma op\u00e7\u00e3o a seguir para iniciar a sua navega\u00e7\u00e3o:\n 1 - Sou estudante e quero saber mais sobre cursos \n 2 - Sou profissional e estou em busca de novas oportunidades"
       ]
     },
 
@@ -24,9 +24,20 @@
         "1"
       ],
       "responses": [
-        "Selecione um curso: front end, back end, full stack"
+        "Selecione um curso: front end, back end, full stack."
       ]
     },
+
+    {
+      "tag": "escolha2",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "Bem vindo \u00e0 BeDev. Chegou a hora de conquistar aquela t\u00e3o sonhada vaga como programador no mercado de trabalho. Nossas vagas atendem tanto profissionais em in\u00edcio de carreira quanto aqueles mais experientes. \n Tem espa\u00e7o para todo mundo!. Agora fala pra gente, qual \u00e9 o seu n\u00edvel para que possamos te direcionar melhor aqui: \n 1 - Junior \n 2 - Pleno \n 3 - Senior"
+      ]
+    },
+
 
     {
       "tag": "frontend",
@@ -34,7 +45,7 @@
         "front end"
       ],
       "responses": [
-        "Bem vindo \u00e0 formação Front End. Aqui você ter\u00e1 a oportunidade de aprender a desenvolver layouts fant\u00e1sticos com os mais modernos e atuais frameworks do mercado. Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse: Javascript, Angular ou React?"
+        "Bem vindo \u00e0 forma\u00e7\u00e3o Front End. Aqui você ter\u00e1 a oportunidade de aprender a desenvolver layouts fant\u00e1sticos com os mais modernos e atuais frameworks do mercado. Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse: Javascript, Angular ou React?"
       ]
     },
 
@@ -44,7 +55,47 @@
         "javascript"
       ],
       "responses": [
-        "Otima escolha! Al\u00e9m de ser popular e f\u00e1cil de aprender, o javascript também \u00e9 a porta de entrada para dominar frameworks como React e Angular. Portanto, aprender seus fundamentos \u00e9 essencial para se sobressair no mercado de trabalho."
+        "Otima escolha! Al\u00e9m de ser popular e f\u00e1cil de aprender, o javascript também \u00e9 a porta de entrada para dominar frameworks como React e Angular.\n Portanto, aprender seus fundamentos \u00e9 essencial para se sobressair no mercado de trabalho."
+      ]
+    },
+
+     {
+      "tag": "backend",
+      "patterns": [
+        "back end"
+      ],
+      "responses": [
+        "Bem vindo \u00e0 formação Back End. Aqui voc\u00ea ter\u00e1 a oportunidade de aprender a a criar APIs e estruturas robustas com os mais modernos e atuais frameworks do mercado. \n Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse: Java, C#, Python, Node"
+      ]
+    },
+
+    {
+      "tag": "nivelJunior",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "Ol\u00e1, pequeno gafanhoto. Chegou a sua vez de brilhar. Vamos conferir as melhores vagas para quem est\u00e1 em in\u00edcio de carreira!"
+      ]
+    },
+
+    {
+      "tag": "nivelPleno",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "Ol\u00e1, programador Pleno. Apesar de ainda estar aprimorando suas habilidades, você j\u00e1 possui experi\u00eancia suficiente para se virar sozinho e orientar profissionais em in\u00edcio de carreira. Nada mais justo do que trabalhar em empresas que te valorizem, com condi\u00e7\u00f5es e sal\u00e1rios a sua altura. Vamos conhecer algumas desssas oportunidades?"
+      ]
+    },
+
+    {
+      "tag": "nivelSenior",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Ol\u00e1, voc\u00ea que j\u00e1 percorreu um longo caminho para chegar at\u00e9 aqui. Para voc\u00ea, separei algumas vagas interessantes que v\u00e3o oferecer desafios ainda maiores para p\u00f4r em pr\u00e1tica todo o seu conhecimento."
       ]
     }
   ]

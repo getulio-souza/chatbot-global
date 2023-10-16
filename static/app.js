@@ -1,9 +1,14 @@
+function clearInput() {
+  const myInput = document.querySelector('.input__chat');
+  myInput.value = '';
+}
+
 class ChatBox {
   constructor(){
     this.args = {
       openButton: document.querySelector('.chatbox__button'),
       chatBox: document.querySelector('.chatbox__support'),
-      sendButton: document.querySelector('.send__button')
+      sendButton: document.querySelector('.send__button'),
     }
 
     this.state = false;
@@ -22,8 +27,14 @@ class ChatBox {
     node.addEventListener('keyup', ({ key }) => {
       if (key === 'Enter') {
         this.onSendButton(chatBox)
+        clearInput()
       }
     })
+
+    sendButton.addEventListener('click', (() => {
+      node.value = ''
+    }))
+  
   }
 
   //implements the tooogle state
