@@ -3,9 +3,8 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Ola",
+        "ola",
         "oi",
-        "Como você está?",
         "Tem alguém aí",
         "Bom dia",
         "Boa tarde",

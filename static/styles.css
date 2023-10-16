@@ -33,8 +33,8 @@ html {
   display: flex;
   flex-direction: column;
   background: #eee;
-  height: 400px;
-  width: 100%;
+  height: 340px;
+  width: 300px;
   z-index: -123456;
   opacity: 0;
   transition: all .5s ease-in-out;
@@ -53,13 +53,19 @@ html {
 }
 
 .send__button {
-  padding: 6px;
+  padding: 10px;
   background: transparent;
-  border: none;
+  border: 1px solid white;
+  border-radius: 10px;
   outline: none;
   cursor: pointer;
+  transition: .5s;
 }
 
+.send__button:hover{
+  background-color: #fff;
+  color:purple;
+}
 
 /* HEADER */
 .chatbox__header {
@@ -98,7 +104,7 @@ html {
 
 .chatbox__support {
   background: #f9f9f9;
-  height: 450px;
+  height: 350px;
   width: 350px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 20px;
@@ -162,6 +168,7 @@ html {
 /* FOOTER */
 .chatbox__footer {
   display: flex;
+  gap:10px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -189,8 +196,8 @@ html {
 .chatbox__button button:focus,
 .chatbox__button button:visited {
   padding: 10px;
-  background: white;
-  border: none;
+  background: white;S
+  border: 1px solid white;
   outline: none;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
