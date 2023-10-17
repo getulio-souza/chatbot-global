@@ -78,7 +78,7 @@
         "back"
       ],
       "responses": [
-        "Bem vindo \u00e0 forma\u00e7\u00e3o Back End. Aqui voc\u00ea ter\u00e1 a oportunidade de aprender a a criar APIs e estruturas robustas com os mais modernos e atuais frameworks do mercado. <br><br> Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse:<br><br> - Java <br> - C#<br> - Python <br> - Node"
+        "Bem vindo \u00e0 forma\u00e7\u00e3o Back End. Aqui voc\u00ea ter\u00e1 a oportunidade de aprender a criar APIs e estruturas robustas com os mais modernos e atuais frameworks do mercado. <br><br> Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse:<br><br> - Java <br> - C#<br> - Python <br> - Node"
       ]
     },
 
@@ -89,9 +89,7 @@
         "Java"
       ],
       "responses": [
-        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, o Java é uma linguagem robusta, segura e confi\u00e1vel, perfeita para quem quer se aventurar pelo mundo do back end. Vamos conhecer mais sobre neste <a href='https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR' target='_blank'>curso completo</a>."
-
-        
+        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, o Java é uma linguagem robusta, segura e confi\u00e1vel, perfeita para quem quer se aventurar pelo mundo do back end. Vamos conhecer mais sobre ela neste <a href='https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR' target='_blank'>curso completo</a>." 
       ]
     },
 
@@ -125,11 +123,9 @@
         "python"
       ],
       "responses": [
-        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, tanto o React quanto o Python formam a dupla perfeita para criar aplica\u00e7\u00f5es web completas e modernas que v\u00e3o destacar a sua empresa, seja ela de pequeno, m\u00e9dio ou grande porte no mercado de tecnologia. Vamos conhecer mais sobre neste <a href='https://www.youtube.com/watch?v=7LNl2JlZKHA' target='_blank'>tutorial completo para iniciantes</a>."
+        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, tanto o React quanto o Python formam a dupla perfeita para criar aplica\u00e7\u00f5es web completas e modernas que v\u00e3o destacar a sua empresa, seja ela de pequeno, m\u00e9dio ou grande porte no mercado de tecnologia. Vamos conhecer mais sobre ambos neste <a href='https://www.youtube.com/watch?v=7LNl2JlZKHA' target='_blank'>tutorial completo para iniciantes</a>."
       ]
     },
-
-
 
     {
       "tag": "nivelJunior",
@@ -147,7 +143,7 @@
         "2"
       ],
       "responses": [
-        "Ol\u00e1, programador Pleno. Apesar de ainda estar aprimorando suas habilidades, você j\u00e1 possui experi\u00eancia suficiente para se virar sozinho e orientar profissionais em in\u00edcio de carreira.<br><br>Nada mais justo do que trabalhar em empresas que te valorizem, com condi\u00e7\u00f5es e sal\u00e1rios a sua altura. Conhe\u00e7a algumas desssas <a href='https://br.indeed.com/q-programador-pleno-vagas.html?vjk=5bd28f1383225cae' target='_blank'>oportunidades</a>."
+        "Ol\u00e1, programador Pleno. Apesar de ainda estar aprimorando suas habilidades, voc\u00ea j\u00e1 possui experi\u00eancia suficiente para se virar sozinho e orientar profissionais em in\u00edcio de carreira.<br><br>Nada mais justo do que trabalhar em empresas que te valorizem, com condi\u00e7\u00f5es e sal\u00e1rios a sua altura. Conhe\u00e7a algumas desssas <a href='https://br.indeed.com/q-programador-pleno-vagas.html?vjk=5bd28f1383225cae' target='_blank'>oportunidades</a>."
       ]
     },
 
