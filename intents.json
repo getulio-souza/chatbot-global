@@ -10,150 +10,64 @@
         "oi",
         "Oi",
         "Bom dia",
+        "bom dia",
         "Boa tarde",
+        "boa tarde",
         "Boa noite"
       ],
       "responses": [
-        "Ol\u00e1, tudo bem? Escolha uma op\u00e7\u00e3o a seguir para iniciar a sua navega\u00e7\u00e3o:<br><br> - Estudante <br> - Profissional"
+        "Ol\u00e1, tudo bem? Selecione um sintoma que voce est\u00e1 tendo neste momento:<br><br> - Des\u00e3nimo <br> - Cansa\u00e7o <br> - Oscila\u00e7\u00f5es de humor <br> - Irritabilidade <br> - Fadiga <br> - Ansiedade" 
       ]
     },
 
     {
-      "tag": "student",
+      "tag": "symptoms",
       "patterns": [
-        "estudante",
-        "Estudante"
+        "desanimo",
+        "des\u00e3nimo",
+        "Desanimo",
+        "Des\u00e3nimo",
+        "Cansaco",
+        "cansaco",
+        "Cansaço",
+        "Fadiga",
+        "fadiga",
+        "Ansiedade",
+        "ansiedade"
       ],
       "responses": [
-        "Selecione um curso: <br><br>- front end <br> - back end <br> - full stack."
+        "H\u00e1 quanto tempo voce est\u00e1 sentindo esse sintoma. Selecione uma op\u00e7\u00e3o abaixo: <br><br>- 2 semanas <br> - 3 meses <br> - 6 meses <br> - 1 ano <br>"
       ]
     },
 
     {
-      "tag": "work",
+      "tag": "times",
       "patterns": [
-        "profissional"
+        "2 semanas"
       ],
       "responses": [
-        "Bem vindo \u00e0 BeDev. Chegou a hora de conquistar aquela t\u00e3o sonhada vaga como programador no mercado de trabalho. <br><br>Nossas vagas atendem tanto profissionais em in\u00edcio de carreira quanto aqueles mais experientes. <br><br>Tem espa\u00e7o para todo mundo!.<br> Agora fala pra gente, qual \u00e9 o seu n\u00edvel para que possamos te direcionar melhor aqui: <br><br> 1 - Junior <br> 2 - Pleno <br> 3 - Senior"
+        "Bom, J\u00e1 procurou fazer alguma atividade fisica? A pr\u00e1tica de exercicios fisicos estimula a libera\u00e7\u00e3o de dopamina, um horm\u00f4nio responsavel pela sensa\u00e7\u00e3o de prazer, o que contribui para o bem-estar geral.<br> Comece com uma caminhada todas as manhas. Esse exerc\u00e9cio \u00e9 \u00f3timo para fortalecer a musculatura das pernas, al\u00e9m de auxiliar na circula\u00e7\u00e3o sangu\u00ednea. Escolha um local arborizado e com ar fresco para caminhar. Voc\u00ea vai ver a sua disposi\u00e7\u00e3o mudar para melhor!"
+      ]
+    },
+    
+
+    {
+      "tag": "times2",
+      "patterns": [
+        "3 meses"
+      ],
+      "responses": [
+        "Por voc\u00ea estar se sentindo assim h\u00e1 mais tempo, o ideal \u00e9 procurar por um especialista, pois existe a possibilidade de voc\u00ea estar com um quadro leve de depress\u00e3o. Como forma de amenizar essas sintomas, voce pode fazer algumas pequenas mudan\u00e7as na sua rotina como meditar, praticar algum esporte, sair com os amigos, ler, enfim, procurar por atividades que ocupem sua mente e movimentem o seu corpo."
       ]
     },
 
     {
-      "tag": "frontend",
+      "tag": "times3",
       "patterns": [
-        "front end",
-        "frontend",
-        "frontEnd",
-        "front End",
-        "front-End",
-        "front-end",
-        "front"
+        "1 ano"
       ],
       "responses": [
-        "Bem vindo \u00e0 forma\u00e7\u00e3o Front End. Aqui vocu00ea ter\u00e1 a oportunidade de aprender a desenvolver layouts fant\u00e1sticos com os mais modernos e atuais frameworks do mercado.<br> Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse:<br><br> - Javascript<br> - Angular <br> - React"
-      ]
-    },
-
-    {
-      "tag": "javascript",
-      "patterns": [
-        "javascript"
-      ],
-      "responses": [
-        "\u00d3tima escolha! Al\u00e9m de ser popular e f\u00e1cil de aprender, o Javascript tamb\u00e9m \u00e9 a porta de entrada para dominar frameworks como React e Angular.<br><br> Portanto, aprender seus fundamentos \u00e9 essencial para se sobressair no mercado de trabalho.<br><br> Vamos conhecer mais sobre ele neste <a href='https://www.youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm' target='_blank'>curso completo</a>."
-      ]
-    },
-
-     {
-      "tag": "backend",
-      "patterns": [
-        "back end",
-        "back end",
-        "backend",
-        "backEnd",
-        "back End",
-        "back-End",
-        "back-end",
-        "back"
-      ],
-      "responses": [
-        "Bem vindo \u00e0 forma\u00e7\u00e3o Back End. Aqui voc\u00ea ter\u00e1 a oportunidade de aprender a criar APIs e estruturas robustas com os mais modernos e atuais frameworks do mercado. <br><br> Selecione uma linguagem de programa\u00e7\u00e3o do seu interesse:<br><br> - Java <br> - C#<br> - Python <br> - Node"
-      ]
-    },
-
-    {
-      "tag": "java",
-      "patterns": [
-        "java",
-        "Java"
-      ],
-      "responses": [
-        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, o Java é uma linguagem robusta, segura e confi\u00e1vel, perfeita para quem quer se aventurar pelo mundo do back end. Vamos conhecer mais sobre ela neste <a href='https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR' target='_blank'>curso completo</a>." 
-      ]
-    },
-
-    {
-      "tag": "fullstack",
-      "patterns": [
-        "full stack",
-        "fullstack",
-        "fullStack",
-        "full-Stack",
-        "Full-Stack",
-        "FullStack",
-        "Full Stack",
-        "Full stack"
-      ],
-      "responses": [
-        "Bem vindo \u00e0 forma\u00e7\u00e3o FullStack. Aqui voc\u00ea ter\u00e1 a oportunidade de aprender a a criar sites e aplica\u00e7\u00f5es completas usando o que h\u00e1 de mais moderno em front-end e back-end. <br><br> Selecione uma das op\u00e7\u00f5es abaixo para come\u00e7ar: <br><br> React + Python <br>"
-      ]
-    },
-
-    {
-      "tag": "frameworks",
-      "patterns": [
-        "React + Python",
-        "React+Python",
-        "react+python",
-        "react + python",
-        "React",
-        "Python",
-        "react",
-        "python"
-      ],
-      "responses": [
-        "\u00d3tima escolha! Presente em milhares de aplica\u00e7\u00f5es web, tanto o React quanto o Python formam a dupla perfeita para criar aplica\u00e7\u00f5es web completas e modernas que v\u00e3o destacar a sua empresa, seja ela de pequeno, m\u00e9dio ou grande porte no mercado de tecnologia. Vamos conhecer mais sobre ambos neste <a href='https://www.youtube.com/watch?v=7LNl2JlZKHA' target='_blank'>tutorial completo para iniciantes</a>."
-      ]
-    },
-
-    {
-      "tag": "nivelJunior",
-      "patterns": [
-        "1"
-      ],
-      "responses": [
-        "Ol\u00e1, pequeno gafanhoto. Chegou a sua vez de brilhar. Vamos conferir as <a href='https://br.indeed.com/q-programador-junior-vagas.html?vjk=8ed2197a28f41b18' target='_blank'>melhores vagas</a> para quem est\u00e1 em in\u00edcio de carreira!"
-      ]
-    },
-
-    {
-      "tag": "nivelPleno",
-      "patterns": [
-        "2"
-      ],
-      "responses": [
-        "Ol\u00e1, programador Pleno. Apesar de ainda estar aprimorando suas habilidades, voc\u00ea j\u00e1 possui experi\u00eancia suficiente para se virar sozinho e orientar profissionais em in\u00edcio de carreira.<br><br>Nada mais justo do que trabalhar em empresas que te valorizem, com condi\u00e7\u00f5es e sal\u00e1rios a sua altura. Conhe\u00e7a algumas desssas <a href='https://br.indeed.com/q-programador-pleno-vagas.html?vjk=5bd28f1383225cae' target='_blank'>oportunidades</a>."
-      ]
-    },
-
-    {
-      "tag": "nivelSenior",
-      "patterns": [
-        "3"
-      ],
-      "responses": [
-        "Ol\u00e1, voc\u00ea que j\u00e1 percorreu um longo caminho para chegar at\u00e9 aqui.<br><br> Separei algumas <a href='https://br.indeed.com/jobs?q=Programador+Senior&from=mobRdr&utm_source=%2Fm%2F&utm_medium=redir&utm_campaign=dt&vjk=d3f382f05b9ea4a6' target='_blank'>vagas interessantes</a> que v\u00e3o oferecer desafios ainda maiores para p\u00f4r em pr\u00e1tica todo o seu conhecimento."
+        "Voc\u00ea j\u00e1 se encontra em um quadro grave de depress\u00e3o que exige acompanhamento m\u00e9dico, al\u00e9m de uma mudan\u00e7a de rotina que envolve tanto o aspecto fisico quanto emocional.<br>Isso pode ser feito com a ajuda de profissionais de sa\u00fade como psicologos e psiquiatras que v\u00e3o te dar todo o suporte que precisa para lidar com essa doen\u00e7a, evitando que ela afete a sua sa\u00fade f\u00edsica, mental e tamb\u00e9m interfira nas suas rela\u00e7\u00f5es pessoais e profissionais."
       ]
     },
 
