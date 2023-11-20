@@ -9,8 +9,17 @@
     
   </head>
   <body>
-    <div class="container">
-      <div class="chatbox">
+    <section class="container">
+      <img src="/static/images/chatbot-background-image.png" class="background-img"/>
+      <!-- header -->
+      <article class="header-home">
+        <div class="header-title">
+          <h1>Prevent Chatbot</h1>
+          <h3>O seu maior aliado no combate à depressão<h3>
+          <button class="action__btn">Testar agora</button>
+        </div>
+      </article>
+      <article class="chatbox">
         <div class="chatbox__support">
           <div class="chatbox__header">
             <div class="close-chatbox-btn">x</div>
@@ -23,7 +32,7 @@
               />
             </div>
             <div class="chatbox__content--header">
-              <h4 class="chatbox__heading--header">John</h4>
+              <h4 class="chatbox__heading--header">Daniela</h4>
               <p class="chatbox__description--header">
                 Oi, eu sou a Daniela, sua assistente virtual. Digite sua mensagem abaixo para que eu possa te ajudar.
               </p>
@@ -42,8 +51,8 @@
             <img src="/static/images/chat.png"/>
           </button>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
     <script>$SCRIPT_ROOT = {{ request.script_root|tojson }}</script>
     <script 
       type="text/javascript" src="{{url_for('static', filename='app.js' )}}"></script>

@@ -16,7 +16,7 @@
         "Boa noite"
       ],
       "responses": [
-        "Ol\u00e1, tudo bem? Selecione um sintoma que voce est\u00e1 tendo neste momento:<br><br> - Des\u00e3nimo <br> - Cansa\u00e7o <br> - Oscila\u00e7\u00f5es de humor <br> - Irritabilidade <br> - Fadiga <br> - Ansiedade" 
+        "Ol\u00e1, tudo bem? Selecione um sintoma que voce est\u00e1 tendo neste momento:<br><br> - Des\u00e2nimo <br> - Cansa\u00e7o <br> - Oscila\u00e7\u00f5es de humor <br> - Irritabilidade <br> - Fadiga <br> - Ansiedade" 
       ]
     },
 
@@ -24,19 +24,22 @@
       "tag": "symptoms",
       "patterns": [
         "desanimo",
-        "des\u00e3nimo",
+        "des\u00e2nimo",
         "Desanimo",
-        "Des\u00e3nimo",
+        "Des\u00e2nimo",
         "Cansaco",
         "cansaco",
+        "cansaço",
         "Cansaço",
         "Fadiga",
         "fadiga",
         "Ansiedade",
-        "ansiedade"
+        "ansiedade",
+        "irritabilidade",
+        "Irritabilidade"
       ],
       "responses": [
-        "H\u00e1 quanto tempo voce est\u00e1 sentindo esse sintoma. Selecione uma op\u00e7\u00e3o abaixo: <br><br>- 2 semanas <br> - 3 meses <br> - 6 meses <br> - 1 ano <br>"
+        "H\u00e1 quanto tempo voc\u00ea est\u00e1 sentindo esse sintoma. Selecione uma op\u00e7\u00e3o abaixo: <br><br>- 2 semanas <br> - 3 meses <br> - 6 meses"
       ]
     },
 
@@ -46,10 +49,9 @@
         "2 semanas"
       ],
       "responses": [
-        "Bom, J\u00e1 procurou fazer alguma atividade fisica? A pr\u00e1tica de exercicios fisicos estimula a libera\u00e7\u00e3o de dopamina, um horm\u00f4nio responsavel pela sensa\u00e7\u00e3o de prazer, o que contribui para o bem-estar geral.<br> Comece com uma caminhada todas as manhas. Esse exerc\u00e9cio \u00e9 \u00f3timo para fortalecer a musculatura das pernas, al\u00e9m de auxiliar na circula\u00e7\u00e3o sangu\u00ednea. Escolha um local arborizado e com ar fresco para caminhar. Voc\u00ea vai ver a sua disposi\u00e7\u00e3o mudar para melhor!"
+        "Bom, j\u00e1 procurou fazer alguma atividade fisica? A pr\u00e1tica de exercicios fisicos estimula a libera\u00e7\u00e3o de dopamina, um horm\u00f4nio responsavel pela sensa\u00e7\u00e3o de prazer, o que contribui para o bem-estar geral.<br> Comece com uma caminhada todas as manhas. Esse exerc\u00e9cio \u00e9 \u00f3timo para fortalecer a musculatura das pernas, al\u00e9m de auxiliar na circula\u00e7\u00e3o sangu\u00ednea. Escolha um local arborizado e com ar fresco para caminhar. Voc\u00ea vai ver a sua disposi\u00e7\u00e3o mudar para melhor!"
       ]
     },
-    
 
     {
       "tag": "times2",
@@ -64,10 +66,21 @@
     {
       "tag": "times3",
       "patterns": [
-        "1 ano"
+        "6 meses"
       ],
       "responses": [
-        "Voc\u00ea j\u00e1 se encontra em um quadro grave de depress\u00e3o que exige acompanhamento m\u00e9dico, al\u00e9m de uma mudan\u00e7a de rotina que envolve tanto o aspecto fisico quanto emocional.<br>Isso pode ser feito com a ajuda de profissionais de sa\u00fade como psicologos e psiquiatras que v\u00e3o te dar todo o suporte que precisa para lidar com essa doen\u00e7a, evitando que ela afete a sua sa\u00fade f\u00edsica, mental e tamb\u00e9m interfira nas suas rela\u00e7\u00f5es pessoais e profissionais."
+        "Voc\u00ea j\u00e1 se encontra em um quadro moderado de depress\u00e3o que exige acompanhamento m\u00e9dico, al\u00e9m de uma mudan\u00e7a de rotina que envolve tanto o aspecto fisico quanto emocional.<br>Isso pode ser feito com a ajuda de profissionais de sa\u00fade como psicologos e psiquiatras que v\u00e3o te dar todo o suporte que precisa para lidar com essa doen\u00e7a, evitando que ela afete a sua sa\u00fade f\u00edsica, mental e tamb\u00e9m interfira nas suas rela\u00e7\u00f5es pessoais e profissionais. <br> Al\u00e9m disso, voc\u00ea pode encontrar atendimento gratuito com profissionais especializados. Digite <strong>'sim'</strong> para saber mais."
+      ]
+    },
+
+    {
+      "tag": "atendimento",
+      "patterns": [
+        "sim",
+        "Sim"
+      ],
+      "responses": [
+        "Voc\u00ea sabia que o Sistema \u00danico de Sa\u00fade (SUS), atrav\u00e9s da Rede de Aten\u00e7\u00e3o Psicossocial (RAPS), oferece tratamento gratuito para pacientes com sintomas de depress\u00e3o, ansiedade e outros tipos de transtornos.<br><br> Os servi\u00e7os incluem desde a aten\u00e7\u00e3o prim\u00e1ria, com atendimento em Unidade B\u00e1sica de Sa\u00fade (UBS) a tratamentos especializados, no Centro de Aten\u00e7\u00e3o Psicossocial (CAPS).<br><br> Neste <a href='https://www.prefeitura.sp.gov.br/cidade/secretarias/saude/atencao_basica/index.php?p=204204' target='_blank'>Link</a> voc\u00ea tem acesso as unidades mais pr\u00f3ximas da sua resid\u00eancia e tamb\u00e9m aos telefones de contato."
       ]
     },
 

@@ -6,6 +6,7 @@ function clearInput() {
 class ChatBox {
   constructor(){
     this.args = {
+      actionButton: document.querySelector('.action__btn'),
       openButton: document.querySelector('.chatbox__button'),
       chatBox: document.querySelector('.chatbox__support'),
       sendButton: document.querySelector('.send__button'),
@@ -21,8 +22,9 @@ class ChatBox {
   //display the messages on chatbot
 
   display() {
-    const { openButton, chatBox, sendButton, closeButton } = this.args;
+    const { openButton, actionButton, chatBox, sendButton, closeButton } = this.args;
 
+    actionButton.addEventListener('click', () => this.toggleState(chatBox))
     openButton.addEventListener('click', () => this.toggleState(chatBox))
     sendButton.addEventListener('click', () => this.onSendButton(chatBox))
     closeButton.addEventListener('click', () => this.closeChatBox(chatBox))
@@ -81,7 +83,7 @@ class ChatBox {
     })
       .then(response => response.json())
       .then(response => {
-        let msg2 = { name: 'John', message: response.answer };
+        let msg2 = { name: 'Daniela', message: response.answer };
         this.messages.push(msg2);
         this.updateChatText(chatbox)
       })
@@ -96,7 +98,7 @@ class ChatBox {
   updateChatText(chatbox) {
     var html = '';
     this.messages.slice().reverse().forEach(function (item) {
-      if (item.name === "John") {
+      if (item.name === "Daniela") {
         html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
       } else {
         html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'

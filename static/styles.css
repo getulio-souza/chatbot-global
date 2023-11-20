@@ -8,7 +8,7 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 100%;
-  background: #2a2a2a;
+  background: #fff;
 }
 
 *,
@@ -19,6 +19,62 @@ html {
   --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
   --primary: #1652c1;
 }
+
+/*==== HEADER ====*/
+
+.header-home{
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:35%;
+  left:35%;
+  transform: translateX(-50%, -50%);
+}
+
+.header-title > h1{
+  color: #1652c1;
+  font-size:40px;
+  padding-bottom: 15px;
+}
+
+.header-title > h3{
+  color:#1652c1;
+  padding-bottom: 20px;
+}
+
+.action__btn{
+  background-color: #1652c1;
+  border-radius: 13px;
+  color:#fff;
+  border:none;
+  padding: 15px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.action__btn:hover{
+  background-color: white;
+  border: 1px solid #1652c1;
+  color: #1652c1;
+}
+
+
+.background-img{
+  opacity: 0.6;
+  width:100%;
+  height:100vh;
+  object-fit: cover;
+}
+
 
 /* CHATBOX
 =============== */
