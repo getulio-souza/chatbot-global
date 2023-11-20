@@ -83,7 +83,7 @@ class ChatBox {
     })
       .then(response => response.json())
       .then(response => {
-        let msg2 = { name: 'John', message: response.answer };
+        let msg2 = { name: 'Daniela', message: response.answer };
         this.messages.push(msg2);
         this.updateChatText(chatbox)
       })
@@ -98,7 +98,7 @@ class ChatBox {
   updateChatText(chatbox) {
     var html = '';
     this.messages.slice().reverse().forEach(function (item) {
-      if (item.name === "John") {
+      if (item.name === "Daniela") {
         html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
       } else {
         html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
