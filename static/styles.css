@@ -62,7 +62,7 @@ html {
 }
 
 .action__btn:hover{
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #1652c1;
   color: #1652c1;
 }
