@@ -10,9 +10,7 @@
         "oi",
         "Oi",
         "Bom dia",
-        "bom dia",
         "Boa tarde",
-        "boa tarde",
         "Boa noite"
       ],
       "responses": [
@@ -21,7 +19,7 @@
     },
 
     {
-      "tag": "symptoms",
+      "tag": "student1",
       "patterns": [
         "desanimo",
         "des\u00e2nimo",
@@ -44,9 +42,9 @@
     },
 
     {
-      "tag": "times",
+      "tag": "work",
       "patterns": [
-        "2 semanas"
+        "profissional"
       ],
       "responses": [
         "Bom, j\u00e1 procurou fazer alguma atividade fisica? A pr\u00e1tica de exercicios fisicos estimula a libera\u00e7\u00e3o de dopamina, um horm\u00f4nio responsavel pela sensa\u00e7\u00e3o de prazer, o que contribui para o bem-estar geral.<br> Comece com uma caminhada todas as manhas. Esse exerc\u00e9cio \u00e9 \u00f3timo para fortalecer a musculatura das pernas, al\u00e9m de auxiliar na circula\u00e7\u00e3o sangu\u00ednea. Escolha um local arborizado e com ar fresco para caminhar. Voc\u00ea vai ver a sua disposi\u00e7\u00e3o mudar para melhor!"
@@ -64,7 +62,7 @@
     },
 
     {
-      "tag": "times3",
+      "tag": "frontend",
       "patterns": [
         "6 meses"
       ],
