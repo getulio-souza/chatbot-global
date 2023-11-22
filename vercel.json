@@ -1,14 +1,17 @@
 {
-  "builds":[
+  "devCommand": "python app.py",
+  "builds": [
     {
       "src": "/app.py",
       "use": "@vercel/python"
     }
-  ], 
-  "routes": [
-  {
-    "src": "/(.*)",
-    "dest": "/app.py"
-  }
+  ],
+  "routes":[
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
+
+
