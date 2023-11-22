@@ -1,7 +1,14 @@
 {
-  "functions": {
-    "api": {
-      "runtime": "python3.8"
+  "builds":[
+    {
+      "src": "/app.py",
+      "use": "@vercel/python"
     }
+  ], 
+  "routes": [
+  {
+    "src": "/(.*)",
+    "dest": "/app.py"
   }
+  ]
 }
