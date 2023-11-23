@@ -1,3 +1,4 @@
 node_modules/
 large_dataset/
 .git/
+.venv
